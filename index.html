@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carlos Federico Juncosa</title>
+  <meta name="description" content="Applied economist — growth, infrastructure, energy transition, labor markets (Latin America & Caribbean)." />
+  <style>
+    :root { --max: 860px; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; color:#111; background:#fff; }
+    a { color: inherit; }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 40px 20px; }
+    .top { display:flex; gap:24px; align-items:flex-start; justify-content:space-between; flex-wrap:wrap; }
+    h1 { font-size: 34px; margin: 0 0 6px 0; }
+    .role { font-size: 16px; color:#333; margin:0 0 14px 0; }
+    .tagline { font-size: 18px; line-height: 1.4; margin: 0 0 18px 0; color:#222; max-width: 56ch; }
+    .btns { display:flex; gap:10px; flex-wrap:wrap; margin: 10px 0 0 0; }
+    .btn { border:1px solid #111; padding:10px 12px; border-radius: 10px; text-decoration:none; }
+    .btn:hover { background:#111; color:#fff; }
+    section { margin-top: 34px; padding-top: 26px; border-top: 1px solid #eee; }
+    h2 { font-size: 18px; margin: 0 0 14px 0; }
+    ul { margin: 0; padding-left: 18px; }
+    li { margin: 10px 0; line-height: 1.35; }
+    .muted { color:#444; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:14px; }
+    .card { border:1px solid #eee; border-radius: 14px; padding:14px; }
+    .card b { display:block; margin-bottom:6px; }
+    footer { margin-top: 42px; color:#555; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <h1>Carlos Federico Juncosa</h1>
+        <p class="role">Research Executive, CAF — Development Bank of Latin America and the Caribbean</p>
+        <p class="tagline">
+          Applied economist working at the intersection of economic research and public policy in Latin America and the Caribbean,
+          with a focus on growth, infrastructure, energy transition, and labor markets.
+        </p>
+        <div class="btns">
+          <a class="btn" href="CV.pdf">CV (PDF)</a>
+          <a class="btn" href="#work">Selected work</a>
+          <a class="btn" href="#contact">Contact</a>
+        </div>
+        <p class="muted" style="margin-top:14px;">
+          Buenos Aires, Argentina · <a href="mailto:cfjncosa@gmail.com">cfjncosa@gmail.com</a> ·
+          <a href="https://scholar.google.com/">Google Scholar</a> ·
+          <a href="https://www.linkedin.com/">LinkedIn</a>
+        </p>
+      </div>
+    </div>
+
+    <section id="work">
+      <h2>Selected work</h2>
+      <div class="grid">
+        <div class="card">
+          <b>Split-ticket voting and voting technology</b>
+          <span class="muted">Electoral Studies (peer-reviewed)</span><br/>
+          <a href="https://www.sciencedirect.com/science/article/abs/pii/S0261379423001580">Read</a>
+        </div>
+        <div class="card">
+          <b>Local labor market shocks</b>
+          <span class="muted">Working paper under review (Labor Economics)</span><br/>
+          <a href="#">Link</a>
+        </div>
+        <div class="card">
+          <b>CAF RED: Knowledge that Transforms (20 years)</b>
+          <span class="muted">Co-editor</span><br/>
+          <a href="https://red20.caf.com/en/">Web-book</a>
+        </div>
+        <div class="card">
+          <b>Energy transition chapters</b>
+          <span class="muted">Clean fuels · Green electrification · Energy systems</span><br/>
+          <a href="https://www.caf.com/es/especiales/red/red-2024/capitulo-5/">Example</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications & writing</h2>
+      <ul>
+        <li><b>Peer-reviewed</b> — The Effect of Split-Ticket Voting Cost on Effective Enfranchisement. <i>Electoral Studies</i>. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0261379423001580">Link</a></li>
+        <li><b>Working papers</b> — Local Shocks in Labor Markets: Competition and Information Flow Among Peers. <a href="#">Link</a></li>
+        <li><b>Reports / chapters</b> — CAF RED chapters on energy transition, transport infrastructure, and ecosystem services. <a href="https://scioteca.caf.com/handle/123456789/1671?locale-attribute=en">Scioteca</a></li>
+        <li><b>Policy</b> — Regional integration and global value chains. <a href="https://scioteca.caf.com/handle/123456789/1756">Link</a></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:cfjncosa@gmail.com">cfjncosa@gmail.com</a><br/>
+        LinkedIn: <a href="https://www.linkedin.com/">Add link</a><br/>
+        Google Scholar: <a href="https://scholar.google.com/">Add link</a>
+      </p>
+    </section>
+
+    <footer>
+      © <span id="y"></span> Carlos Federico Juncosa
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
